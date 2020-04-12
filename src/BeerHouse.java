@@ -17,6 +17,10 @@ public class BeerHouse {
 		if(stock.size() < 100) {
 			stock.push("Botella de Cerveza");
 			notifyAll();
+		}else{
+			try {
+				wait();
+			} catch (InterruptedException e) {}
 		}
 		
 	}
@@ -32,6 +36,7 @@ public class BeerHouse {
 		}
 		
 		stock.pop();
+		notifyAll();
 	}
 	
 	private void stockInicial() {
