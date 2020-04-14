@@ -20,6 +20,9 @@ Explica las 3 formas de instanciar un Thread:
 Hay dos formas de hacer una tarea correr concurrentemente con otra: crear una nueva clase como subclase de la clase Thread o declarar 
 una clase e implementar la interfaz Runnable.
 
+(Editado)
+La tercera forma de instanciar un thread es hacer directamente Thread hilo = new Thread().
+
 Uso de Subclase
 Cuando se crea una subclase de Thread, la subclase debería definir su propio método run() para sobre montar el método run() de la  
 clase Thread. La tarea concurrente es desarrollada en este método run().
