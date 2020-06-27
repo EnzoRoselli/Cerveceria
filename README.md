@@ -1,5 +1,7 @@
 # Cerveceria
 
+Programa en Java de 2 hilos corriendo(productor y consumidor).
+
 Cuantos consumidores se necesita para que el stock llegue a 0?
 
 Se necesitan 2 consumidores, suponiendo que haya un solo productor.
